@@ -1,6 +1,6 @@
 {
 	"name": "aynaui",
-	"private": true,
+	"description": "A React TypeScript UI library built with Vite",
 	"version": "0.0.1",
 	"type": "module",
 	"main": "dist/aynaui.umd.js",
@@ -13,9 +13,25 @@
 		"preview": "vite preview",
 		"prepublishOnly": "npm run build"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aynaui/aynaui.git"
+	},
+	"keywords": [
+		"react",
+		"typescript",
+		"ui",
+		"components"
+	],
+	"author": "Ishan Bagchi <ishanbagchi4@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/aynaui/aynaui/issues"
+	},
+	"homepage": "https://github.com/aynaui/aynaui#readme",
 	"peerDependencies": {
-		"react": "^17.0.0 || ^18.0.0",
-		"react-dom": "^17.0.0 || ^18.0.0"
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
 	},
 	"dependencies": {
 		"react": "^18.3.1",
