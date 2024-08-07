@@ -4,8 +4,6 @@ interface MyComponentProps {
 	text: string
 }
 
-const MyComponent: React.FC<MyComponentProps> = ({ text }) => {
+export const MyComponent: React.FC<MyComponentProps> = ({ text }) => {
 	return <div>{text}</div>
 }
-
-export default MyComponent

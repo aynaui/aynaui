@@ -1,7 +1,7 @@
 {
 	"name": "aynaui",
 	"description": "A React TypeScript UI library built with Vite",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"type": "module",
 	"main": "dist/aynaui.umd.js",
 	"module": "dist/aynaui.es.js",

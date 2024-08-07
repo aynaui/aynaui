@@ -6,7 +6,7 @@ export default defineConfig({
 	build: {
 		lib: {
 			entry: 'src/index.ts',
-			name: 'MyUILibrary',
+			name: 'aynaui',
 			fileName: (format) => `aynaui.${format}.js`,
 		},
 		rollupOptions: {
@@ -19,5 +19,10 @@ export default defineConfig({
 			},
 		},
 	},
-	plugins: [react(), dts()],
+	plugins: [
+		react(),
+		dts({
+			insertTypesEntry: true,
+		}),
+	],
 })
